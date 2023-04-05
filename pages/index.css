@@ -39,4 +39,5 @@
 
 @import url("../blocks/footer/footer.css");
   @import url("../blocks/footer/__menu/footer__menu.css");
+    @import url("../blocks/footer/__menu/_item/footer__menu_item.css");
   @import url("../blocks/footer/__copyright/footer__copyright.css");

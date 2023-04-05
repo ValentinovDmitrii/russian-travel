@@ -8,4 +8,6 @@
   margin: 32px auto auto;
   max-width: 360px;
   z-index: 1;
+  color: white;
+  text-decoration: none;
 }

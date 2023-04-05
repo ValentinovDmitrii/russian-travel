@@ -5,3 +5,8 @@
   height: 100%;
   position: absolute;
 }
+
+.cover__overlay:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
