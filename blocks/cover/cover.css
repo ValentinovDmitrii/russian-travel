@@ -2,10 +2,37 @@
   margin: 92px 48px 0;
   background-image: url("../../images/cover.jpg");
   background-size: cover;
-  width: 1184px;
-  height: 740px;
+  background-repeat: no-repeat;
+  max-width: 1184px;
+  aspect-ratio: 1184/740;
   display: flex;
   justify-content: center;
   flex-direction: column;
   position: relative;
+  transition-property: margin;
+  transition-duration: 0.5s;
 }
+
+@media screen and (max-width: 1280px) {
+  .cover{
+    transition-property: margin;
+    transition-duration: 0.5s;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover{
+    transition-property: margin;
+    transition-duration: 0.5s;
+    margin-top: 90px;
+  }
+
+
+@media screen and (max-width: 768px) {
+  .cover{
+    transition-property: margin;
+    transition-duration: 0.5s;
+    margin-top: 66px;
+  }
+}}

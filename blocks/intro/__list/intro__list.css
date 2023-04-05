@@ -7,10 +7,14 @@
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
+  transition-property: margin;
+  transition-duration: 0.5s;
 }
 
 @media screen and (max-width: 320px) {
   .intro__list{
     margin-top: 34px;
+    transition-property: margin;
+    transition-duration: 0.5s;
   }
 }

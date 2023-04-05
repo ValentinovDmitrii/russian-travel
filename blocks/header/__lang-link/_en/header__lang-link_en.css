@@ -1,5 +1,5 @@
 .header__lang-link_en {
   text-decoration: none;
-  margin: auto;
+  margin: auto auto 0;
   color: white;
 }

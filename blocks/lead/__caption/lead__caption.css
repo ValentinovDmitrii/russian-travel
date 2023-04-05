@@ -6,22 +6,30 @@
   font-size: 10px;
   line-height: 14px;
   letter-spacing: 1.5px;
+  transition-property: margin;
+  transition-duration: 0.5s;
 }
 
 @media screen and (min-width: 1280px) {
   .lead__caption{
+    transition-property: margin;
+    transition-duration: 0.5s;
     margin-top: 38px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .lead__caption{
+    transition-property: margin;
+    transition-duration: 0.5s;
     margin-left: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__caption{
+    transition-property: margin;
+    transition-duration: 0.5s;
     margin-left: 16px;
   }
 }

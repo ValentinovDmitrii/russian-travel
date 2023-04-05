@@ -1,22 +1,26 @@
 .lead {
   display: flex;
   flex-direction: column;
-  margin: 56px auto 0 148px;
+  margin: 56px 148px 0;
   max-width: 984px;
   min-width: 320px;
   justify-items: center;
+  transition-property: margin;
+  transition-duration: 0.5s;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead{
+    transition-property: margin;
+    transition-duration: 0.5s;
+    margin: 48px 48px 0;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .lead{
-    margin-left: 48px;
-    margin-top: 48px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .lead{
-    margin-left: 0;
-    margin-right: 0;
+    transition-property: margin;
+    transition-duration: 0.5s;
+    margin: 48px 0 0;
   }
 }
