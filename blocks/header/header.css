@@ -6,15 +6,13 @@
   min-height: 42px;
   max-width: 1184px;
   min-width: 288px;
-  transition-property: margin;
+  transition-property: margin height;
   transition-duration: 0.5s;
   margin: 28px 48px 0;
 }
 
 @media screen and (max-width: 1024px) {
   .header{
-    transition-property: margin height;
-    transition-duration: 0.5s;
     margin: 28px 24px 0;
     height: 52px;
   }
@@ -22,7 +20,6 @@
 
 @media screen and (max-width: 768px) {
   .header{
-    transition-property: margin height;
     margin: 16px 16px 0;
     height: 42px;
   }

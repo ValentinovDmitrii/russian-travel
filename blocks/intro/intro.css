@@ -2,14 +2,12 @@
   margin: 62px auto 0 148px;
   max-width: 720px;
   min-width: 288px;
-  transition-property: width;
+  transition-property: width margin;
   transition-duration: 0.5s;
 }
 
 @media screen and (min-width: 1024px) {
   .intro{
-    transition-property: width margin;
-    transition-duration: 0.5s;
     width: 690px;
   }
 }
@@ -18,8 +16,6 @@
   .intro{
     margin-left: 48px;
     margin-top: 92px;
-    transition-property: margin;
-    transition-duration: 0.5s;
   }
 }
 
@@ -27,8 +23,6 @@
   .intro{
     margin-left: 24px;
     margin-top: 88px;
-    transition-property: margin;
-    transition-duration: 0.5s;
   }
 }
 
@@ -36,7 +30,5 @@
   .intro{
     margin-left: 16px;
     margin-top: 64px;
-    transition-property: margin;
-    transition-duration: 0.5s;
   }
 }

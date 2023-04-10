@@ -31,8 +31,7 @@
   @import url("../blocks/place/__link/place__link.css");
   @import url("../blocks/place/__image/place__image.css");
   @import url("../blocks/place/__paragraph/place__paragraph.css");
-    @import url("../blocks/place/__paragraph/__paragraph_1/place__paragraph_1.css");
-    @import url("../blocks/place/__paragraph/__paragraph_2/place__paragraph_2.css");
+    @import url("../blocks/place/__paragraph/__paragraph_text/place__paragraph_text.css");
 
 @import url("../blocks/cover/cover.css");
   @import url("../blocks/cover/__title/cover__title.css");
@@ -43,3 +42,5 @@
   @import url("../blocks/footer/__menu/footer__menu.css");
     @import url("../blocks/footer/__menu/_item/footer__menu_item.css");
   @import url("../blocks/footer/__copyright/footer__copyright.css");
+
+@import url("../blocks/link-opacity/link-opacity.css");

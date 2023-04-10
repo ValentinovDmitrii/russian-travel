@@ -16,8 +16,6 @@
 
 @media screen and (max-width: 1024px) {
   .footer{
-    transition-property: margin;
-    transition-duration: 0.5s;
     margin: 88px 24px 24px;
   }
 }

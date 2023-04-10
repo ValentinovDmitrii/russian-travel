@@ -8,14 +8,12 @@
   min-width: 288px;
   align-self: center;
   margin: 32px 0 0;
-  transition-property: margin-top font-size line-height;
+  transition-property: margin;
   transition-duration: 0.5s;
 }
 
 @media screen and (max-width: 768px) {
   .lead__subtitle{
-    transition-property: margin-top font-size line-height;
-    transition-duration: 0.5s;
     margin-top: 16px;
     font-size: 16px;
     line-height: 20px;
