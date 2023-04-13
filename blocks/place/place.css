@@ -7,13 +7,13 @@
 
 @media screen and (max-width: 1280px) {
   .place{
-    column-gap: 32px;
+    column-gap: max(32px, (40px - (1280px - 100vw)/2));
   }
 }
 
 @media screen and (max-width: 1024px) {
   .place{
-    column-gap: 28px;
+    column-gap: max(28px, (32px - (1024px - 100vw)/2));
   }
 }
 

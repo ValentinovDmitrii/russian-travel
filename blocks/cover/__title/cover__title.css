@@ -2,25 +2,20 @@
   top: 0;
   margin: auto auto 0;
   max-width: 560px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   text-align: center;
   z-index: 1;
-  color: white;
-  text-decoration: none;
-}
-
-.cover__title:hover ~ .cover__overlay{
-  opacity: 0.8;
+  position: relative;
 }
 
 @media screen and (max-width: 768px) {
   .cover__title{
     font-size: 32px;
     line-height: 35px;
+    max-width: 288px;
   }
 
 }

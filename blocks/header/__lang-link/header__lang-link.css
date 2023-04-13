@@ -1,9 +1,13 @@
 .header__lang-link {
   display: flex;
+  justify-items: flex-start;
+  gap: 18px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
+  list-style: none;
+  padding: 0;
 }
 
 @media screen and (max-width: 320px) {

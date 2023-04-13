@@ -1,0 +1,10 @@
+.link{
+  text-decoration: none;
+  text-decoration-style: none;
+  color: white;
+  cursor: pointer;
+}
+
+.link:hover .cover__overlay{
+  opacity: 0.8;
+}

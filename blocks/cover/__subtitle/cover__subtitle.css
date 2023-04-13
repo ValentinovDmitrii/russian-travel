@@ -1,5 +1,4 @@
 .cover__subtitle{
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -7,18 +6,16 @@
   text-align: center;
   margin: 32px auto auto;
   max-width: 360px;
+  position: relative;
   z-index: 1;
   color: white;
   text-decoration: none;
-}
-
-.cover__subtitle:hover ~ .cover__overlay{
-  opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {
   .cover__subtitle{
     font-size: 14px;
     line-height: 16px;
+    max-width: 288px;
   }
 }

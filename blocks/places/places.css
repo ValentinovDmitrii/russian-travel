@@ -3,26 +3,24 @@
   margin: 92px 148px 0;
   flex-direction: column;
   row-gap: 80px;
-  transition-property: margin;
-  transition-duration: 0.5s;
 }
 
 @media screen and (max-width: 1280px) {
   .places{
-    margin: 92px 48px 0;
+    margin: 92px max(48px, (148px - (1280px - 100vw)/2)) 0;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .places{
-    margin: 88px 24px 0;
+    margin: 88px max(24px, (48px - (1024px - 100vw)/2)) 0;
     row-gap: 73px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places{
-    margin: 64px 0 0;
+    margin: 64px max(0px, (24px - (768px - 100vw)/2)) 0;
     row-gap: 50px;
   }
 }
