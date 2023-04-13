@@ -4,6 +4,7 @@
 @import url("../blocks/page/page.css");
 
 @import url("../blocks/link/link.css");
+  @import url("../blocks/link/__opacity/link__opacity.css");
   @import url("../blocks/link/_active/link_active.css");
 
 @import url("../blocks/header/header.css");
@@ -44,5 +45,3 @@
   @import url("../blocks/footer/__menu/footer__menu.css");
     @import url("../blocks/footer/menu-item/footer__menu-item.css");
   @import url("../blocks/footer/__copyright/footer__copyright.css");
-
-@import url("../blocks/link-opacity/link-opacity.css");
