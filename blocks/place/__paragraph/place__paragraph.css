@@ -1,8 +1,12 @@
 .place__paragraph{
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  gap: 26px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 29px;
   margin: 0;
 }
 

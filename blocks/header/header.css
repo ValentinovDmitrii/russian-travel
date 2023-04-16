@@ -8,7 +8,7 @@
   min-width: 288px;
   transition-property: height;
   transition-duration: 0.5s;
-  margin: 28px 48px 0;
+  margin: 28px auto 0;
 }
 
 @media screen and (max-width: 1024px) {

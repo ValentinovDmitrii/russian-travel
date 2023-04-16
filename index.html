@@ -6,8 +6,49 @@
   <title>Путешествия по России</title>
   <link rel="icon" href="./images/__logo.svg">
   <link rel="stylesheet" href="./pages/index.css">
+
+<!-- Pixel Glass -->
+<style>
+  HTML {
+    background-repeat: no-repeat;
+    background-position:  50% 0;
+    /* >1280px */
+    background-image: url( "__debug/1280.png" );
+  }
+  @media ( max-width: 1279px ) {
+    HTML {
+      /*  1024  */
+      background-image: url( "__debug/1024.png" );
+    }
+  }
+  @media ( max-width: 1023px ) {
+    HTML {
+      /*  768px */
+      background-image: url( "__debug/768.png" );
+    }
+  }
+
+  @media ( max-width: 767px ) {
+    HTML {
+      /*  768px */
+      background-image: url( "__debug/320.png" );
+    }
+  }
+
+  BODY {
+    opacity: .5;
+  }
+</style>
+
+<link rel="stylesheet" href="./pixel-glass/styles.css">
+<script src="./pixel-glass/script.js"></script>
+<!-- // Pixel Glass -->
+
 </head>
 <body class="page">
+
+  <div class="px2px" style="background-image: url('./__debug/1280.png');"></div>
+
   <header class="header">
     <img class="header__logo" src="./images/__logo.svg" alt="Логотип">
     <ul class="header__lang-link">
