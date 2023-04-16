@@ -9,8 +9,6 @@
   justify-content: center;
   flex-direction: column;
   position: relative;
-  transition-property: margin;
-  transition-duration: 0.5s;
 }
 
 @media screen and (max-width: 1280px) {
@@ -21,12 +19,12 @@
 
 @media screen and (max-width: 1024px) {
   .cover{
-    margin-top: 90px;
+    margin-top: max(90px, (92px - (1024px - 100vw)/2));
   }
 
 
 @media screen and (max-width: 768px) {
   .cover{
-    margin-top: 66px;
+    margin-top: max(66px, (90px - (768px - 100vw)/2));
   }
 }}

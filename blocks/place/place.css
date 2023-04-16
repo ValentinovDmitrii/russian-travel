@@ -8,16 +8,17 @@
 @media screen and (max-width: 1280px) {
   .place{
     column-gap: max(32px, (40px - (1280px - 100vw)/2));
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .place{
-    column-gap: max(28px, (32px - (1024px - 100vw)/2));
+    grid-template-columns: auto max(456px, (484px - (1280px - 100vw)/2));
   }
 }
 
 @media screen and (max-width: 768px) {
+  .place{
+    column-gap: max(28px, (32px - (768px - 100vw)/2));
+  }
+}
+
+@media screen and (max-width: 320px) {
   .place{
     grid-template-columns: 1fr;
   }
