@@ -13,14 +13,14 @@
 
 @media screen and (max-width: 1024px) {
   .places{
-    margin: 88px max(24px, (48px - (1024px - 100vw)/2)) 0;
-    row-gap: max(73px, (80px - (768 - 100vw)/2))
+    margin: max(88px, (92px - (1024px - 100vw)/2)) max(24px, (48px - (1024px - 100vw)/2)) 0;
+    row-gap: max(73px, (80px - (1024px - 100vw)/2))
   }
 }
 
 @media screen and (max-width: 768px) {
   .places{
-    margin: 64px max(0px, (24px - (768px - 100vw)/2)) 0;
-    row-gap: max(50px, (73px - (768 - 100vw)/2))
+    margin: max(64px, (88px - (768px - 100vw)/2)) max(0px, (24px - (768px - 100vw)/2)) 0;
+    row-gap: max(50px, (73px - (768px - 100vw)/2))
   }
 }
