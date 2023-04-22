@@ -11,10 +11,10 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 690px) {
   .footer{
     flex-direction: column;
-    margin: max(64px, (88px - (768px - 100vw)/2)) auto 24px max(16px, (24px - (768px - 100vw)/2));
+    margin: max(64px, (88px - (690px - 100vw)/2)) auto 24px max(16px, (24px - (690px - 100vw)/2));
   }
 }
 

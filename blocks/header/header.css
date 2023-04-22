@@ -3,7 +3,7 @@
   justify-content: space-between;
   position: relative;
   max-height: 52px;
-  min-height: 42px;
+  /* min-height: 42px; */
   max-width: 1184px;
   min-width: 288px;
   transition-property: height;
@@ -20,5 +20,6 @@
 @media screen and (max-width: 768px) {
   .header{
     margin: max(16px, (28px - (768px - 100vw)/2)) max(16px, (24px - (768px - 100vw)/2)) 0;
+    max-height: max(42px, (52px - (768px - 100vw)/2));
   }
 }
