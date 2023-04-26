@@ -11,6 +11,5 @@
   .intro__title{
     font-size: max(32px, (54px - (768px - 100vw)));
     line-height: max(35px, (58px - (768px - 100vw)));
-    padding-right: 60px;
   }
 }

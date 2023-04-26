@@ -1,19 +1,19 @@
 .lead {
   display: flex;
   flex-direction: column;
-  margin: 56px auto 0 122px;
+  margin: 56px auto 0 148px;
   max-width: 984px;
   justify-items: flex-start;
 }
 
 @media screen and (max-width: 1280px) {
   .lead{
-    margin: max(48px, (56px - (1280px - 100vw)/2)) max(48px, (174px - (1280px - 100vw)/2)) 0 max(48px, (122px - (1280px - 100vw)/2));
+    margin: max(48px, (56px - (1280px - 100vw)/2)) max(48px, (148px - (1280px - 100vw)/2)) 0 max(48px, (148px - (1280px - 100vw)/2));
   }
 }
 
 @media screen and (max-width: 1024px) {
   .lead{
-    margin: 48px max(0px, (48px - (1024px - 100vw)/2)) 0;
+    margin: 48px max(0px, (48px - (1024px - 100vw)/2)) 0 max(0px, (48px - (1024px - 100vw)/2));
   }
 }
